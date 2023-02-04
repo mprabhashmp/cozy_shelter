@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    background-image: url(../resources/14.jpg);
+}
+.container{
+    width:800px; 
+    height: auto; 
+    padding: 30px; 
+    background-color:ghostwhite; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-smoothing: antialiased;
+}
+
+
