@@ -3,12 +3,12 @@
 //databse connection
 $host = "localhost";
 $userName = "root";
-$password = "abc@123abc";
-$dbName = "shelter";
+$password = "1234";
+$dbName = "cozyshelter";
 // Create database connection
-$link = new mysqli($host, $userName, $password, $dbName);
+$conn = new mysqli($host, $userName, $password, $dbName);
 // Check connection
-if ($link->connect_error) {
-die("Connection failed: " . $link->connect_error);
+if ($conn->connect_error) {
+die("Connection failed: " . $conn->connect_error);
 }
 ?>
