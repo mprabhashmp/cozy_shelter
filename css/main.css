@@ -1,0 +1,85 @@
+			body{
+				background-color: #2A2424;
+			}
+			.navbar{
+				background-color: #2A2424;
+			}
+			.btn{
+				background-color: #F0DEB0;
+				font-weight: bold;
+				color:#2A2424 ;
+			}
+			#fn{
+				font-family: cursive;
+				color: #E2C275;
+				font-size: 35px;
+
+			}
+			#context{
+				margin-top: 550px;
+			}
+			#offcanvasRight{
+				background-color: #E5E3C9;
+			}
+			.form-control {
+				margin-bottom: 10px;
+				padding-bottom: 20px;
+				position: relative;
+			}
+
+			.form-control label {
+				display: inline-block;
+				margin-bottom: 5px;
+			}
+
+			.form-control input {
+				border: 2px solid #f0f0f0;
+				border-radius: 4px;
+				display: block;
+				font-family: inherit;
+				font-size: 14px;
+				padding: 10px;
+				width: 100%;
+			}
+
+			.form-control input:focus {
+				outline: 0;
+				border-color: #777;
+			}
+
+			.form-control.success input {
+				border-color: #2ecc71;
+			}
+
+			.form-control.error input {
+				border-color: #e74c3c;
+			}
+
+			.form-control i {
+				visibility: hidden;
+				position: absolute;
+				top: 40px;
+				right: 10px;
+			}
+
+			.form-control.success i.fa-check-circle {
+				color: #2ecc71;
+				visibility: visible;
+			}
+
+			.form-control.error i.fa-exclamation-circle {
+				color: #e74c3c;
+				visibility: visible;
+			}
+
+			.form-control small {
+				color: #e74c3c;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				visibility: hidden;
+			}
+
+			.form-control.error small {
+				visibility: visible;
+			}
